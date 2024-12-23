@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .product-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .product-video {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+        }
+        .product-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            padding: 10px;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #b12704;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .add-to-cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ff9900;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            border-radius: 0 0 5px 5px;
+        }
+        .add-to-cart:hover {
+            background-color: #cc7a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <video class="product-video" autoplay loop muted>
+            <source src="./Recording 2024-12-24 010807.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="product-title">
+            Dome Top Butterfly Engraved Red Keepsake Memorial Urn for As ...
+        </div>
+        <div class="product-price">£24.99</div>
+        <a href="#" class="add-to-cart">🛒 Add to Cart</a>
+    </div>
+</body>
+</html>
